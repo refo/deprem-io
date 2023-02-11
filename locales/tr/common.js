@@ -67,10 +67,11 @@ module.exports = {
     noPersonalHealthInformationAddonPhysicalCondition:
       'sadece durumunuzu giriniz.',
     noPersonalHealthInformationAddonHelpInfo:
-    'sadece yardım hakkında bilgi giriniz.',
+      'sadece yardım hakkında bilgi giriniz.',
   },
   requiredFieldsNotice: '* ile başlayan alanlar zorunludur.',
   submit: 'Gönder',
+  filter: 'Filtrele',
   kvkk: '6698 sayılı KVKK kapsamında “Uygulamamıza depremzede ya da depremzede yakını olarak kaydolan kullanıcılardan ad, soyadı, iletişim bilgisi, log kaydı ve depremzedenin sisteme girilen ve kendileri tarafından alenileştirilmiş konum verilerini topluyoruz.” Veri işleme hukuki sebeplerimizi, amaçlarımızı görmek ve haklarınızı öğrenmek için <0>Aydınlatma Metnini</0> ziyaret etmek ister misiniz? ',
   inputFields: {
     fullName: 'Ad Soyad',
@@ -89,9 +90,7 @@ module.exports = {
       exists: 'Aracım var, yardımı kendim teslim alabilirim.',
       noneExists: 'Aracım yok, yardımın teslim edilmesi gerek.',
     },
-    termsAcceptedLabel: "Okudum ve aydınlandım.",
-    helpCity: "Yardım verebileceğin şehir",
-    helpInfo: "Yardımın hakkında bilgi"
+    termsAcceptedLabel: 'Okudum ve aydınlandım.',
   },
   pageHeaders: {
     underDebrisPage: 'Ben / Tandığım Enkaz Altında',
@@ -99,7 +98,10 @@ module.exports = {
     needToWarmPage: 'Isınmaya İhtiyacım Var',
     canUseConstructionMachinePage: 'İş Makinesi Yardımı Sağla',
     giveHelpPage: 'Yardım Sağla',
-    getHelpPage: 'Yardım Al'
+    getHelpPage: 'Yardım Al',
+    helpListUnderDebris: 'Enkaz Altında Olanlar',
+    helpListNeedFood: 'Gıda İhtiyacı Olanlar',
+    helpListNeedToGetWarm: 'Isınma İhtiyacı Olanlar',
   },
   lookAtTheRecordsPage: '<0>Mevcut Kayıtlar</0> sayfasına göz atın.',
 }
